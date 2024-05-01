@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <title> image to pdf - Image to pdf converter</title>
+  <link rel="icon" type="image/png" href="title.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<style>
+  body,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Raleway", sans-serif
+  }
+  body,
+  html {
+    height: 100%;
+    line-height: 1.8;
+  }
+</style>
+
+<body translate="no">
+
+
+  <div class="w3-content w3-padding" style="max-width:1564px">
+  <div class="w3-container w3-padding-32" id="projects">
+    <p class="w3-border-bottom w3-border-light-grey w3-padding-16"><span class="line1"><strong>Pick photos to include in your PDF.</strong></span></p>
+    <!-- Line 2 -->
+    <p class="w3-border-bottom w3-border-light-grey w3-padding-16"><span class="line2"><strong>Combine your chosen images into a single PDF document.</strong></span></p>
+    <!-- Line 3 -->
+    <p class="w3-border-bottom w3-border-light-grey w3-padding-16"><span class="line3"><strong>Start fresh by removing all selected images.</strong></span></p>
+  </div>
+  </div>
+  <div class="ricchi">Made by Jeyashalin Ricchi R❤️</div>
+  <div class="container">
+  
+    <input type="file" id="fileInput" multiple>
+    <button style="--clr:#008cba;--hov:#006080;" id="addImageButton">Add Images</button>
+    <button style="--clr:#3e8d75;--hov:#3e8e41;" id="convertButton">Convert to PDF</button>
+    <button style="--clr:#f44336;--hov:#ff6b6b;" id="clearButton">Clear Images</button>
+    <div id="pdfDownloadLink"></div>
+    <div id="imageContainer"></div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
+  <script src="script.js"></script>
+  <script id="rendered-js"></script>
+  
+
+</body>
+
+</html>
